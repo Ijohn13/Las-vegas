@@ -1,0 +1,12 @@
+body {
+    display: grid;
+    grid-template-areas: 
+                        "header header header"
+                        "body body body"
+                        "foot foot foot";
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+}
