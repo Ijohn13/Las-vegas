@@ -5,6 +5,7 @@ body {
     font-family: 'Nanum Gothic', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Sansita Swashed', cursive;
+    background-color: rgba(156, 154, 43, 0.1);
 }
 /* header start */
 ul {
@@ -98,6 +99,10 @@ ul {
     border-bottom: 1px solid rgba(156, 154, 43, 0.933);
 }
 
+.sheets {
+    background-color: white;
+}
+
 /* media queries */
 
 /* mobile */
@@ -136,10 +141,15 @@ ul {
 
     .originCity, .luxe {
         padding-right: 15px;
-        border-right: 1px solid rgba(122, 136, 0, 0.918);
+        /*border-right: 1px solid rgba(122, 136, 0, 0.918);*/
+    }
+
+    .presentation {
+        border-bottom: none;
     }
 
     .sheets {
         border-bottom: none;
+        border-top: 1px solid rgba(156, 154, 43, 0.933);
     }
 }
