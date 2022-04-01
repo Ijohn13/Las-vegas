@@ -12,6 +12,10 @@ ul {
     list-style-type: none;
 }
 
+header {
+    background-color: white;
+}
+
 .navbar {
     position: sticky;
     justify-content: center;
@@ -94,7 +98,7 @@ ul {
     color: rgba(122, 136, 0, 0.918);
 }
 
-.originCity, .presentation, .sinCity, .luxe {
+.originCity, .presentation, .sinCity, .luxe, .climat {
     margin-bottom: 20px;  
     border-bottom: 1px solid rgba(156, 154, 43, 0.933);
 }
@@ -102,6 +106,7 @@ ul {
 .sheets {
     background-color: white;
 }
+
 /* main end*/
 
 /* footer start */
@@ -151,6 +156,42 @@ footer {
     .navbar li {
         font-size: 1.5rem;
     }
+
+    .imgOrigin {
+        width: 300px;
+        height: 200px;
+        background-image: url(./photos/usa-g647db55f1_640.jpg);
+        background-size: 100% 100%;
+        float: left;
+        margin-right: 30px;
+    }  
+    
+    .imgSinCity {
+        width: 200px;
+        height: 200px;
+        background-image: url(./photos/roulette.jpg);
+        background-size: 100% 100%;
+        float: left;
+        margin-right: 30px;
+    }
+
+    .imgLuxe {
+       width: 300px;
+       height: 200px;
+       background-image: url(./photos/swimming-pool-g2bd62847e_640.jpg);
+       background-size: 100% 100%;
+       float: right;
+       margin-left: 30px;
+    }
+
+    .imgClimat {
+        width: 400px;
+        height: 300px;
+        background-image: url(./photos/climat.jpg);
+        background-size: 100% 100%;
+        float: right;
+        margin-left: 30px;
+     }
 }
 
 /* large screen */
@@ -171,6 +212,15 @@ footer {
         gap: 30px;
     }
 
+    .containerSign {
+        grid-column: 2/4;
+    }
+
+    .sign {
+        height: 200px;
+        width: 200px;
+    }
+
     .originCity, .luxe {
         padding-right: 15px;
         /*border-right: 1px solid rgba(122, 136, 0, 0.918);*/
@@ -184,4 +234,5 @@ footer {
         border-bottom: none;
         border-top: 1px solid rgba(156, 154, 43, 0.933);
     }
+}
 }
