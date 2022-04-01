@@ -102,6 +102,38 @@ ul {
 .sheets {
     background-color: white;
 }
+/* main end*/
+
+/* footer start */
+footer {
+    background-color: rgb(185, 43, 43)
+}
+
+.facebook:hover {
+    color: #3b5998;
+}
+
+.twitter:hover {
+    color: #3cf;
+}
+
+.instagram:hover {
+    color: #bd38a0;
+}
+
+.social-btns {
+    text-align: center;
+}
+
+.facebook, .twitter, .instagram {
+    margin: 5px;
+    color: rgba(156, 154, 43, 0.933);
+}
+
+.maker {
+    text-align: center;
+    color: rgba(156, 154, 43, 0.933);
+}
 
 /* media queries */
 
