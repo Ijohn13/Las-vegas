@@ -1,5 +1,5 @@
 body {
-    font-size: 14px;
+    font-size: 10px;
     font-family: 'Asap', sans-serif;
     font-family: 'Dongle', sans-serif;
     font-family: 'Nanum Gothic', sans-serif;
@@ -22,6 +22,11 @@ header {
     height: 50px;
     background-color: rgb(185, 43, 43);
     color: white;
+}
+
+.navbarAcceuil {
+    background-color: rgba(185, 43, 43, 0.6);
+
 }
 
 .navbar ul {
@@ -57,6 +62,18 @@ header {
 /* main start */
 .containerPresentation {
     margin: 20px;
+}
+
+.containerVideoLasVegas {
+    height: 480px;
+    width: 100%;
+    padding-bottom: 5px;
+    background-color: rgb(185, 43, 43);
+}
+
+.videoLasVegas {
+    height: 100%;
+    width: 100vw;
 }
 
 .presentation {
@@ -111,7 +128,7 @@ header {
 
 /* footer start */
 footer {
-    background-color: rgb(185, 43, 43)
+    background-color: rgb(185, 43, 43);
 }
 
 .facebook:hover {
@@ -234,5 +251,9 @@ footer {
         border-bottom: none;
         border-top: 1px solid rgba(156, 154, 43, 0.933);
     }
+
+    .containerVideoLasVegas {
+        
+    }
 }
-}
+
