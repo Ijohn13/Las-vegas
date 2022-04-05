@@ -7,6 +7,7 @@ body {
     font-family: 'Sansita Swashed', cursive;
     background-color: rgba(156, 154, 43, 0.1);
 }
+
 /* header start */
 ul {
     list-style-type: none;
@@ -54,6 +55,8 @@ header {
 }
 /* header end */
 
+/* page index.html start */
+
 /* main start */
 .containerPresentation {
     margin: 20px;
@@ -89,12 +92,13 @@ header {
     font-size: 1.3rem;
 }
 
-.text {
+.text, .cardText {
     text-align: justify;
     font-weight: bold;
+    padding: 10px;
 }
 
-.textColor, .titlePresentation, .titleOrigin, .titleSinCity, .titleLuxe, .titleClimat {
+.textColor, .titlePresentation, .titleOrigin, .titleSinCity, .titleLuxe, .titleClimat, .cardTitle {
     color: rgba(122, 136, 0, 0.918);
 }
 
@@ -223,7 +227,6 @@ footer {
 
     .originCity, .luxe {
         padding-right: 15px;
-        /*border-right: 1px solid rgba(122, 136, 0, 0.918);*/
     }
 
     .presentation {
@@ -235,4 +238,13 @@ footer {
         border-top: 1px solid rgba(156, 154, 43, 0.933);
     }
 }
+/* page index.html end */
+
+/* page visites.html */
+
+/* main start */
+.containerCard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
