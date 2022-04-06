@@ -124,6 +124,18 @@ header {
     background-color: white;
 }
 
+.card {
+    margin: 5px;
+}
+
+.card-title {
+    text-align: center;
+    color: rgba(156, 154, 43, 0.933);
+}
+
+.card-text {
+    text-align: justify;
+}
 /* main end*/
 
 /* footer start */
