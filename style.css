@@ -72,8 +72,8 @@ header {
 }
 
 .videoLasVegas {
+    width: 100%;
     height: 100%;
-    width: 100vw;
 }
 
 .presentation {
@@ -174,6 +174,10 @@ footer {
         font-size: 1.5rem;
     }
 
+    .videoLasVegas {
+        object-fit: fill;
+    }
+
     .imgOrigin {
         width: 300px;
         height: 200px;
@@ -216,6 +220,10 @@ footer {
 {
     body {
         font-size: 1.2em;
+    }
+
+    .videoLasVegas {
+        object-fit: fill;
     }
     
     .container-img {
