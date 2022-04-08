@@ -1,5 +1,5 @@
 body {
-    font-size: 14px;
+    font-size: 10px;
     font-family: 'Asap', sans-serif;
     font-family: 'Dongle', sans-serif;
     font-family: 'Nanum Gothic', sans-serif;
@@ -23,6 +23,11 @@ header {
     height: 50px;
     background-color: rgb(185, 43, 43);
     color: white;
+}
+
+.navbarAcceuil {
+    background-color: rgba(185, 43, 43, 0.6);
+
 }
 
 .navbar ul {
@@ -62,6 +67,18 @@ header {
     margin: 20px;
 }
 
+.containerVideoLasVegas {
+    height: 480px;
+    width: 100%;
+    padding-bottom: 5px;
+    background-color: rgb(185, 43, 43);
+}
+
+.videoLasVegas {
+    width: 100%;
+    height: 100%;
+}
+
 .presentation {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -85,6 +102,17 @@ header {
 .sign {
     height: 100px;
     width: 75px;
+    animation: rotate 3s ease-in 1s infinite alternate both;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+    
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .titlePresentation, .titleOrigin, .titleSinCity, .titleLuxe, .titleClimat {
@@ -111,11 +139,23 @@ header {
     background-color: white;
 }
 
+.card {
+    margin: 5px;
+}
+
+.card-title {
+    text-align: center;
+    color: rgba(156, 154, 43, 0.933);
+}
+
+.card-text {
+    text-align: justify;
+}
 /* main end*/
 
 /* footer start */
 footer {
-    background-color: rgb(185, 43, 43)
+    background-color: rgb(185, 43, 43);
 }
 
 .facebook:hover {
@@ -152,6 +192,15 @@ footer {
     .presentation {
         grid-template-rows: 1fr 1fr;
     }
+
+    .end {
+        top: 110px;
+        height: 150px;
+    }
+
+    .group3 {
+        margin-bottom: 5px;
+    }
 }
 
 /* tablet */
@@ -159,6 +208,10 @@ footer {
 {
     .navbar li {
         font-size: 1.5rem;
+    }
+
+    .videoLasVegas {
+        object-fit: fill;
     }
 
     .imgOrigin {
@@ -180,12 +233,12 @@ footer {
     }
 
     .imgLuxe {
-       width: 300px;
-       height: 200px;
-       background-image: url(./photos/swimming-pool-g2bd62847e_640.jpg);
-       background-size: 100% 100%;
-       float: right;
-       margin-left: 30px;
+        width: 300px;
+        height: 200px;
+        background-image: url(./photos/swimming-pool-g2bd62847e_640.jpg);
+        background-size: 100% 100%;
+        float: right;
+        margin-left: 30px;
     }
 
     .imgClimat {
@@ -195,7 +248,11 @@ footer {
         background-size: 100% 100%;
         float: right;
         margin-left: 30px;
-     }
+    }
+
+    .end {
+        top: 200px;
+    }
 }
 
 /* large screen */
@@ -203,6 +260,10 @@ footer {
 {
     body {
         font-size: 1.2em;
+    }
+
+    .videoLasVegas {
+        object-fit: fill;
     }
     
     .container-img {
@@ -237,14 +298,8 @@ footer {
         border-bottom: none;
         border-top: 1px solid rgba(156, 154, 43, 0.933);
     }
-}
-/* page index.html end */
 
-/* page visites.html */
-
-/* main start */
-.containerCard {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    .containerVideoLasVegas {
+        
+    }
 }
