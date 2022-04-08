@@ -99,6 +99,17 @@ header {
 .sign {
     height: 100px;
     width: 75px;
+    animation: rotate 3s ease-in 1s infinite alternate both;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+    
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .titlePresentation, .titleOrigin, .titleSinCity, .titleLuxe, .titleClimat {
@@ -218,12 +229,12 @@ footer {
     }
 
     .imgLuxe {
-       width: 300px;
-       height: 200px;
-       background-image: url(./photos/swimming-pool-g2bd62847e_640.jpg);
-       background-size: 100% 100%;
-       float: right;
-       margin-left: 30px;
+        width: 300px;
+        height: 200px;
+        background-image: url(./photos/swimming-pool-g2bd62847e_640.jpg);
+        background-size: 100% 100%;
+        float: right;
+        margin-left: 30px;
     }
 
     .imgClimat {
