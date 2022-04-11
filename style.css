@@ -64,8 +64,6 @@ header {
 }
 /* header end */
 
-/* page index.html start */
-
 /* main start */
 .containerPresentation {
     margin: 20px;
@@ -255,6 +253,7 @@ header {
     height: 200px;
     width: 150px;
     margin-right: 5px;
+    margin-bottom: 10px;
     box-shadow: 0px 0px 10px #777;
 }
 
