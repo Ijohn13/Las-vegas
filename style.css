@@ -406,6 +406,10 @@ footer {
         font-size: 1.2em;
     }
 
+    .containerVideoLasVegas {
+        height: 800px;
+    }
+
     .videoLasVegas {
         object-fit: fill;
     }
