@@ -19,6 +19,7 @@ ul {
 
 header {
     background-color: white;
+    margin-bottom: 10px;
 }
 
 .navbar {
@@ -277,6 +278,55 @@ header {
     color: white;
 }
 
+.containerSpectacle {
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(156, 154, 43, 0.933);
+}
+
+.containerImg {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    height: 100px;
+    width: 150px;
+    background-size: 100% 100%;
+}
+
+.mj {
+    background-image: url(./photos/spectacles/MJ.jpeg);
+}
+
+.mystere {
+    background-image: url(./photos/spectacles/mystere.jpeg);
+}
+
+.cooperfield {
+    background-image: url(./photos/spectacles/copperfield.jpeg);
+}
+
+.o {
+    background-image: url(./photos/spectacles/o.jpeg);
+}
+
+.mentalist {
+    background-image: url(./photos/spectacles/mentalist.jpeg);
+}
+
+.beatles {
+    background-image: url(./photos/spectacles/beatles.jpeg);
+}
+
+.ect {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5em;
+}
+
 /* main end*/
 
 /* footer start */
@@ -396,6 +446,11 @@ footer {
         height: 360px;
         width: 200px;
     }
+
+    .img {
+        height: 200px;
+        width: 250px;
+    }
 }
 
 /* large screen */
@@ -449,5 +504,17 @@ footer {
     .astuce {
         height: 400px;
         width: 250px;
+    }
+
+    .containerSpectacle {
+        display: flex;
+    }
+
+    .img {
+        margin-bottom: 5px;
+    }
+
+    .lastArticle {
+        border-bottom: none;
     }
 }
