@@ -19,7 +19,6 @@ ul {
 
 header {
     background-color: white;
-    margin-bottom: 10px;
 }
 
 .navbar {
@@ -276,6 +275,10 @@ header {
 .titleAstuce {
     background-color: rgb(185, 43, 43);
     color: white;
+}
+
+.spectacle {
+    margin-top: 10px;
 }
 
 .containerSpectacle {
