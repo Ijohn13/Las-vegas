@@ -117,9 +117,13 @@ header {
     }
 }
 
-.title, .titlePresentation, .titleOrigin, .titleSinCity, .titleLuxe, .titleClimat {
+.title, .titleOrigin, .titleSinCity, .titleLuxe, .titleClimat {
     text-align: center;
     font-size: 1.3rem;
+}
+
+.titlePresentation {
+    display: none;
 }
 
 .text, .cardText {
@@ -137,7 +141,7 @@ header {
     border-bottom: 1px solid rgba(156, 154, 43, 0.933);
 }
 
-.sheets {
+.doc {
     background-color: white;
 }
 
@@ -475,7 +479,7 @@ footer {
         text-align: center;
     }
 
-    .containerSheets {
+    .containerDoc {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
