@@ -29,10 +29,10 @@ header {
     color: white;
 }
 
-.navbarAcceuil {
+/*.navbarAcceuil {
     background-color: rgba(185, 43, 43, 0.6);
 
-}
+}*/
 
 .navbar ul {
     display: flex;
@@ -72,7 +72,7 @@ header {
 .containerVideoLasVegas {
     height: 480px;
     width: 100%;
-    padding-bottom: 5px;
+    /*padding-bottom: 5px;*/
     background-color: rgb(185, 43, 43);
 }
 
@@ -164,7 +164,11 @@ header {
 }
 
 .imgHotels {
-    max-height: 500px;
+    max-height: 576px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 10px #777;
 }
 
 .text {
@@ -354,6 +358,7 @@ footer {
 }
 
 .social-btns {
+    padding: 3px;
     text-align: center;
 }
 
@@ -364,7 +369,17 @@ footer {
 
 .maker {
     text-align: center;
+}
+
+#signature {
     color: rgba(156, 154, 43, 0.933);
+    font-family: destroy;
+    font-size: 0.5em;
+}
+
+#subSignature {
+    font-family: destroy;
+    font-size: 0.2em;
 }
 
 /* media queries */
@@ -503,7 +518,7 @@ footer {
         border-bottom: none;
     }
 
-    .sheets {
+    .doc {
         border-bottom: none;
         border-top: 1px solid rgba(156, 154, 43, 0.933);
     }
