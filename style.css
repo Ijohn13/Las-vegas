@@ -541,7 +541,7 @@ footer {
     background-color: #090909;
 }
 
-.facebook:hover {
+.linkedin:hover {
     color: #3b5998;
 }
 
@@ -558,7 +558,7 @@ footer {
     text-align: center;
 }
 
-.facebook, .twitter, .instagram {
+.linkedin, .twitter, .instagram {
     margin: 5px;
     color: rgba(156, 154, 43, 0.933);
 }
