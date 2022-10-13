@@ -154,11 +154,36 @@ header {
 }
 
 .imgHotels {
-    max-height: 354px;
-    width: 640px;
+    height: 600px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 0 0 20px 20px;
     box-shadow: 0px 0px 10px #777;
+}
+
+#bellagio {
+    background-image: url(./photos/hotels/bellagio/fontaines-bellagio-10.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#cesarPalace {
+    background-image: url(./photos/hotels/cesarPalace/caesars-palace-g8eda0716e_640.jpg);
+    background-size: cover;
+    background-position: 25% 25%;
+}
+
+#hotelAria {
+    background-image: url(./photos/hotels/Aria/007081-01-exterior-night.jpeg);
+    background-size: cover;
+    background-position: 25% 5%;
+}
+
+#hotelStratosphere {
+    background-image: url(./photos/hotels/strat/8613_v12.webp);
+    background-size: cover;
+    background-position: bottom;
 }
 
 .text {
@@ -375,7 +400,7 @@ footer {
 /* media queries */
 
 /* mobile */
-@media screen and (min-width: 653px)
+@media screen and (max-width: 667px)
 {
     .presentation {
         grid-template-rows: 1fr 1fr;
@@ -393,6 +418,7 @@ footer {
     .imgHotels {
         display: flex;
         justify-content: center;
+        height: 400px
     }
 }
 
